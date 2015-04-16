@@ -2,7 +2,7 @@
 
 import unittest
 
-from hyauth.auth import HYAuthHandler
+from hyapi.auth import HYAuthHandler
 
 
 class HYAuthHandlerTests(unittest.TestCase):
