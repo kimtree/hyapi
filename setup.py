@@ -3,14 +3,14 @@
 
 from setuptools import setup
 
-setup(name='hyauth',
+setup(name='hyapi',
       version='0.1.0',
       description='Python SDK for Hanyang Univ API',
-      url='http://github.com/kimtree/hanyang-univ-api',
+      url='http://github.com/kimtree/hyapi',
       author='Namwoo Kim',
       author_email='kimtree@hanyang.ac.kr',
       license='MIT',
-      packages=['hyauth'],
+      packages=['hyapi'],
       zip_safe=False,
       install_requires=[
         'pycrypto==2.6.1',
