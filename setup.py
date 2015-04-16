@@ -4,7 +4,7 @@
 from setuptools import setup
 
 setup(name='hyapi',
-      version='0.1.0',
+      version='0.0.1',
       description='Python SDK for Hanyang Univ API',
       url='http://github.com/kimtree/hyapi',
       author='Namwoo Kim',
