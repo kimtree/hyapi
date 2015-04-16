@@ -1,0 +1,29 @@
+# -*- coding: utf-8 -*-
+
+
+from setuptools import setup
+
+setup(name='hyauth',
+      version='0.1.0',
+      description='Python SDK for Hanyang Univ API',
+      url='http://github.com/kimtree/hanyang-univ-api',
+      author='Namwoo Kim',
+      author_email='kimtree@hanyang.ac.kr',
+      license='MIT',
+      packages=['hyauth'],
+      zip_safe=False,
+      install_requires=[
+        'pycrypto==2.6.1',
+        'requests==2.6.0'
+      ],
+      keywords='hanyang university',
+      classifiers=[
+        'Development Status :: 2 - Pre-Alpha',
+        'Topic :: Software Development :: Libraries',
+        'Operating System :: OS Independent',
+        'License :: OSI Approved :: MIT License',
+        'Programming Language :: Python',
+        'Programming Language :: Python :: 2',
+        'Programming Language :: Python :: 2.6',
+        'Programming Language :: Python :: 2.7'
+      ])
