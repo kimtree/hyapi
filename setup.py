@@ -14,7 +14,7 @@ setup(name='hyapi',
       zip_safe=False,
       install_requires=[
         'pycrypto==2.6.1',
-        'requests==2.6.0'
+        'requests==2.31.0'
       ],
       keywords='hanyang university',
       classifiers=[
